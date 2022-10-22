@@ -1,0 +1,144 @@
+body {
+    font-family: "Montserrat", "sans-serif";
+  }
+  
+  @media all and (max-width: 900px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      background-color: green;
+    }
+  }
+  
+  @media all and (max-width: 900px) {
+    .panel-static {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media all and (max-width: 900px) {
+    .panel-bar-data{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .panel-heading {
+    background-color: #02a0c5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", "sans-serif";
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .data-side{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .container1 {
+    background-color: #f6f6f6;
+  }
+  
+  .panel-static {
+    display: flex;
+    border: 1px solid #f6f6f6;
+    justify-content: space-around;
+    margin: 10;
+  }
+  
+  .panel-monthly-tracking {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", "sans-serif";
+    /* width: 30%; */
+  }
+  
+  .panel-title {
+    background-color: #02a0c5;
+    display: flex;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    color: #f6f6f6;
+  }
+  
+  .panel-bar-data {
+    background-color: #f6f6f6;
+    display: flex;
+    margin-top: 0px;
+  }
+  
+  .panel-ghg {
+    background-color: #145389;
+    color: white;
+    width: 50%;
+  }
+  
+  .panel-monthly-btn {
+    background-color: #02a0c5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", "sans-serif";
+    border-radius: 12px;
+    border: transparent;
+    height: 20%;
+    margin-top: 5px;
+  }
+  
+  .panel-piechart{
+      display: flex;
+  }
+  
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    border-radius: 12px;
+  }
+  
+  .post {
+    background-color: white;
+    border-radius: 12px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .post p{
+      margin-left: 1px;
+  }
+  
+  img{
+      border-radius: 6px;
+      margin-top: 0px;
+  }
+  
+  .post-timestamp{
+      font-size: small;
+      margin-top:0px;
+      margin-left: 0px;
+  }
+  
+  .left{
+      display: flex;
+      flex-direction: column;
+  }
+  
